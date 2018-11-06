@@ -1,0 +1,36 @@
+
+@-moz-document url-prefix("http://www.luogu.org/app/ide_frame"), url-prefix("https://www.luogu.org/app/ide_frame") {
+.am-topbar {
+    margin-left: 0px;
+}
+.am-topbar-brand a {
+    color: #fff;
+}
+.am-selected-list {
+    color: #333;
+}
+.am-topbar {
+    color: #fff;
+}
+.am-topbar:hover {
+    color: #ccc;
+}
+#code, #sin, #sout {
+    border: none;
+    border-color: #333;
+}
+.ace_gutter-active-line, .lg-ide-buttom-title, .lg-ide-buttom-tt, .lg-ide-buttom-tt > strong {
+    background-color: #333 !important;
+    color: #fff;
+}
+.ace_scroller {
+    background-color: #f1f1f1;
+}
+.ace_layer.ace_gutter-layer {
+    background-color: #616161;
+    color: #ddd;
+}
+input[type=checkbox]:before {
+    content: "\f096";
+}
+}

@@ -1,0 +1,55 @@
+@-moz-document domain("www.luogu.org") {
+/* 犇犇板块 */
+.am-comment-hd {
+    background-color: #f1f1f1;
+}
+.am-comment-main::after {
+    border-right-color: #f1f1f1;
+}
+/* 讨论 */
+.am-comment-danger > .am-comment-main > .am-comment-hd {
+    background-color: #f5eaea/*#c9e7c9*/;
+}
+.am-comment-danger > .am-comment-main , .am-comment-danger > .am-comment-main::before {
+    border: none;
+}
+.am-comment-danger .am-comment-avatar, .am-comment-danger .am-comment-main {
+    border: none;
+}
+.am-comment-danger > .am-comment-main::after {
+    border-right-color: #f5eaea/*#c9e7c9#e7d3d3 rgba(221,81,76,.15)*/;
+}
+.am-comment-danger > .am-comment-main > .am-comment-hd > .am-comment-meta ,
+.am-comment-danger > .am-comment-main > .am-comment-hd > .am-comment-meta > a:not(.lg-bold) {
+    color: #777 !important
+}
+
+/* 首页 */
+.lg-index-contest, .lg-training-out {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+div.am-u-lg-9 > div.lg-article > section.am-panel-primary > .am-panel-bd, .lg-training-out.am-panel-secondary > .am-panel-bd {
+    background-color: #f2f5f2;
+}
+div.am-u-lg-9 > div.lg-article > section.am-panel-success > .am-panel-bd, .lg-training-out.am-panel-success > .am-panel-bd {
+	background-color: #edf5ed/*#eff5ef*/;
+}
+div.am-u-lg-9 > div.lg-article > section.am-panel-danger > .am-panel-bd {
+	background-color: #f5eeee;
+}
+div.am-u-sm-12 > div.lg-article > section.am-panel-primary > .am-panel-bd {
+    background-color: #f2f5f2;
+}
+
+/* sub-article 除了试炼场 */
+.lg-sub-article, .lg-sub-article > div {
+    background-color: #eaeaea;
+}
+#sub > .lg-sub-article, #sub > .lg-sub-article > div, .am-tabs > .lg-sub-article, .am-tabs > .lg-sub-article > div {
+    background-color: #0000;
+    border: none;
+}
+}

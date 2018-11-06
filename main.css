@@ -118,13 +118,15 @@
 .am-btn-secondary:active {
     background-color: #5EB95E!important;
 }
+/* 我很方 修正 */
+
+.am-active .am-btn-secondary.am-dropdown-toggle, .am-btn-secondary.am-active, .am-btn-secondary {
+    background-color: #0e93d7;
+    border-color: #0e93d7;
+}
+.am-active .am-btn-secondary.am-dropdown-toggle, .am-btn-secondary.am-active, .am-btn-secondary :foucus :hover{
+    background-color: #19a7f0;
+    border-color: #19a7f0;
+}
 }
 
-@-moz-document url-prefix("http://www.luogu.org/app/ide_frame"), url-prefix("https://www.luogu.org/app/ide_frame") {
-.am-topbar {
-    margin-left: 0px;
-}
-.am-topbar-brand a {
-    color: #fff;
-}
-}
