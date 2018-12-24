@@ -1,4 +1,4 @@
-@-moz-document domain("www.luogu.org") {
+@-moz-document regexp("http(s)?://www.luogu.org/(?!(blog)).*") {
 /* 犇犇板块 */
 .am-comment-hd {
     background-color: #f1f1f1;
@@ -19,8 +19,7 @@
 .am-comment-danger > .am-comment-main::after {
     border-right-color: #f5eaea/*#c9e7c9#e7d3d3 rgba(221,81,76,.15)*/;
 }
-.am-comment-danger > .am-comment-main > .am-comment-hd > .am-comment-meta ,
-.am-comment-danger > .am-comment-main > .am-comment-hd > .am-comment-meta > a:not(.lg-bold) {
+.am-comment-danger > .am-comment-main > .am-comment-hd > .am-comment-meta {
     color: #777 !important
 }
 

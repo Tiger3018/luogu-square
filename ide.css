@@ -1,5 +1,5 @@
 
-@-moz-document url-prefix("http://www.luogu.org/app/ide_frame"), url-prefix("https://www.luogu.org/app/ide_frame") {
+@-moz-document regexp("http(s)?://www.luogu.org/app/ide_frame") {
 .am-topbar {
     margin-left: 0px;
 }
